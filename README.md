@@ -1,6 +1,6 @@
 # Навыки GPT
 
-Проверенный реестр глобальных навыков Codex на Lenovo по состоянию на 17 октября 2026 года. В папке навыков обнаружены **36 уникальных папок с `SKILL.md`**: 34 навыка из предыдущей сверки, расширенный и переименованный личный навык `website-research-brief` и новый личный навык `website-niche-research`. В прежней версии этого реестра было 14 названий; затем добавлены 20 недостающих. Системные навыки Codex в число 36 не входят.
+Проверенный реестр глобальных навыков Codex на Lenovo по состоянию на 17 октября 2026 года. В папке навыков обнаружены **37 уникальных папок с `SKILL.md`**: 34 навыка из предыдущей сверки, расширенный и переименованный личный навык `website-research-brief`, а также личные навыки `website-niche-research` и `elite-marketer`. В прежней версии этого реестра было 14 названий; затем добавлены 20 недостающих. Системные навыки Codex в число 37 не входят.
 
 Репозиторий содержит перечень и ссылки на первоисточники. Он сам по себе не устанавливает навыки на другой компьютер. Исходные файлы сторонних навыков, личные пути, ключи доступа и данные проектов сюда не копируются. Содержимое созданных пользователем личных навыков может публиковаться с его разрешения.
 
@@ -14,16 +14,17 @@
 | Исследование продукта | `jobs-to-be-done`, `problem-statement`, `proto-persona`, `workshop-facilitation` | 4 | Потребности клиентов, формулировка проблемы, персона и фасилитация |
 | Дизайн | `ui-ux-pro-max`, `frontend-design` | 2 | Интерфейсы и визуальное оформление |
 | Сайт, данные и выпуск | `fullstack-engineer`, `database-engineer`, `data-engineer`, `qa-engineer`, `security-engineer`, `devops`, `website-niche-research`, `website-research-brief` | 8 | Разработка, данные, качество, безопасность, развёртывание, исследование ниши и подготовка ТЗ для сайта или веб-продукта |
+| Маркетинг и рост бизнеса | `elite-marketer` | 1 | Позиционирование, аудитория, оффер и возможности роста |
 | Клиентские AI-агенты | `ai-engineer`, `prompt-engineer`, `llm-tester` | 3 | Архитектура, инструкции и оценка ответов |
 | Видео | `remotion-best-practices` | 1 | Анимация и монтаж на Remotion |
 | Методы разработки Superpowers | `brainstorming`, `diagnosing-superpowers`, `dispatching-parallel-agents`, `executing-plans`, `finishing-a-development-branch`, `receiving-code-review`, `requesting-code-review`, `subagent-driven-development`, `systematic-debugging`, `test-driven-development`, `using-git-worktrees`, `using-superpowers`, `verification-before-completion`, `writing-plans`, `writing-skills` | 15 | Планирование, исполнение, отладка, проверки и завершение работы |
-| **Итого** | **36 уникальных навыков** | **36** | |
+| **Итого** | **37 уникальных навыков** | **37** | |
 
-Пятнадцать навыков Superpowers есть в глобальной папке и в установленном плагине. Файлы `SKILL.md` в этих двух местах совпали по SHA-256; это **одни и те же навыки**, они посчитаны один раз. Отдельно доступны системный `imagegen` и инструменты Higgsfield; они не входят в число 36 глобальных папок.
+Пятнадцать навыков Superpowers есть в глобальной папке и в установленном плагине. Файлы `SKILL.md` в этих двух местах совпали по SHA-256; это **одни и те же навыки**, они посчитаны один раз. Отдельно доступны системный `imagegen` и инструменты Higgsfield; они не входят в число 37 глобальных папок.
 
 ## Первоисточники и версии
 
-- **Личные навыки `website-niche-research` и `website-research-brief`:** созданы пользователем. Первый исследует нишу для нового сайта или веб-продукта; второй готовит полное проектное ТЗ, включая информационную архитектуру и функциональные требования сложных продуктов. ТЗ учитывает `Research.md`, когда файл доступен. Файлы и шаблон опубликованы в `skills/` с разрешения владельца.
+- **Личные навыки:** [website-niche-research](skills/website-niche-research/SKILL.md) исследует нишу любого нового сайта или веб-продукта; [website-research-brief](skills/website-research-brief/SKILL.md) готовит полное проектное ТЗ для сайтов и веб-продуктов; [elite-marketer](skills/elite-marketer/SKILL.md) помогает с позиционированием, аудиторией, оффером и ростом. Полные поддерживающие промпты опубликованы в соответствующих папках `references/` с разрешения владельца.
 - **Superpowers, 15 навыков:** [obra/superpowers](https://github.com/obra/superpowers), установленный плагин версии `6.4.2`, лицензия MIT. Локальные копии основных файлов сверены с плагином.
 - **Исследование продукта, 5 навыков** (включая `discovery-interview-prep`): [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills). Совпадение названий и расположения у автора подтверждено; точная версия локальных файлов не установлена. [Условия CC BY-NC-SA 4.0](https://github.com/deanpeters/Product-Manager-Skills#license) разрешают использование в работе, но ограничивают продажу и перепаковку самих навыков.
 - **Дизайн:** `ui-ux-pro-max` — [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill), коммит `56ea9cf174ed86786187daa9de0e6247cb0747e4`; `frontend-design` — [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/frontend-design), коммит `dbd4588f9e1033efb41dad4bef2f7947c8993d44`.
