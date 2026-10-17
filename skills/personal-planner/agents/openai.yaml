@@ -1,0 +1,6 @@
+interface:
+  display_name: "Личный планировщик"
+  short_description: "Личные задачи и планы дня или недели"
+  default_prompt: "Открой личный планировщик для разбора личных задач и составления плана."
+policy:
+  allow_implicit_invocation: true
