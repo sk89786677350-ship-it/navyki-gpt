@@ -1,0 +1,6 @@
+interface:
+  display_name: "Проверяемое завершение"
+  short_description: "Критерии, фактическая сверка и честный итог"
+  default_prompt: "Сверь задачу с результатом и укажи, что выполнено, проверено и осталось."
+policy:
+  allow_implicit_invocation: true
