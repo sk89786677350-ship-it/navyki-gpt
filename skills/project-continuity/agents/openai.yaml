@@ -1,0 +1,6 @@
+interface:
+  display_name: "Непрерывность проекта"
+  short_description: "Сводки и продолжение проектной работы"
+  default_prompt: "Используй $project-continuity, чтобы сохранить этап или подготовить сводку для продолжения проекта."
+policy:
+  allow_implicit_invocation: true
