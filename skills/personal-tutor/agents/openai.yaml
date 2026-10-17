@@ -1,0 +1,6 @@
+interface:
+  display_name: "Личный репетитор"
+  short_description: "Индивидуальное обучение и учебные проекты"
+  default_prompt: "Используй $personal-tutor, чтобы создать и вести индивидуальную программу обучения."
+policy:
+  allow_implicit_invocation: true
