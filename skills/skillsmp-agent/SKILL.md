@@ -1,6 +1,6 @@
 ---
 name: skillsmp-agent
-description: Use when finding, comparing, vetting, installing, or checking updates for community agent skills listed on SkillsMP, especially when compatibility, cost, or supply-chain safety matters.
+description: Use when the user asks to find, search, compare, check, verify, vet, install, or update an AI agent skill, including generic or Russian-language requests such as «найди и проверь навык» without naming SkillsMP, or when using the SkillsMP catalog.
 ---
 
 # SkillsMP Agent
