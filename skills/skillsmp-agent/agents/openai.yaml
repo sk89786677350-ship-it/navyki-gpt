@@ -2,3 +2,6 @@ interface:
   display_name: "SkillsMP Agent"
   short_description: "Find and safely vet community skills"
   default_prompt: "Find relevant SkillsMP skills, verify their source, license, compatibility, cost, and install risks, then recommend the safest fit."
+
+policy:
+  allow_implicit_invocation: true
