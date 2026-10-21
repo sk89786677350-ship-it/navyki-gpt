@@ -1,0 +1,6 @@
+interface:
+  display_name: "Project Repository Sync"
+  short_description: "Safely reconcile project files with the matching repository"
+  default_prompt: "Check the matching project folder and repository, preserve local work, and report what was synchronized."
+policy:
+  allow_implicit_invocation: true
